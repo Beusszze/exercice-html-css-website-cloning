@@ -1,0 +1,14 @@
+body {
+    background-color : white;
+}
+
+header {
+    position : relative;
+
+    }
+
+header>logo {
+    font-size: 18.9;
+
+}
+

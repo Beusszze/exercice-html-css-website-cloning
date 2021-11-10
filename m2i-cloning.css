@@ -5,27 +5,48 @@ body {
 }
 header {
     position : relative;
+    
     }
 
 h1{
     font-size : 22.68px
+    
+    text-align : center;
+
 }  
 
 h2{
     font-size : 50.4px;
+    text-align : center;
 }
 
 .topOfHeader{
     font-size : 18px;
     padding : 46px, 60px, 25px;
     display : flex;
+    justify-content : space-between;
 }
 
 .logoAndSlogan{
+    display : flex;
     justify-content: space-around;
 }
 
 .navigation{
-    justify-content: space-around;
+    display : flex;
+    justify-content: space-between;
+}
+
+.centerBanner {
+    display : flex;
+    justify-content : center;
+    background-color : green;
+    vertical-align : top;
+   
+}
+.searchBar {
+    display : flex;
+   align-items : center;
+   vertical-align : center;
 }
 

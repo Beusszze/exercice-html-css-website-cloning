@@ -19,6 +19,9 @@
 <body>
     <!-- Menu Header -->
     <header>
+         
+
+    </div>
         <!--Top of header div-->
         <div class="topOfHeader">
 
@@ -70,7 +73,8 @@
 
                     <div class="bannerIcon">
                         <div class="searchIcon">
-                            <i class="fas fa-search"></i>
+
+                            <i href="" class="fas fa-search"></i>
 
                         </div>
 
@@ -81,12 +85,16 @@
 
                         </div>
 
-
                         <div class="useProfilIcon">
-                            <i class="fas fa-user-alt"></i>
+                            <a href="https://www.m2iformation.fr/mon-compte/">
+                                <i class="fas fa-user-alt"></i>
+                            </a>
+
                         </div>
                         <div class="contactIcon">
-                            <i class="far fa-envelope"></i>
+                            <a href="https://www.m2iformation.fr/contact/">
+                                <i class="far fa-envelope"></i>
+                            </a>
                         </div>
 
                     </div>
@@ -107,67 +115,74 @@
             <!-- Search box div-->
             <div class="searchBar">
                 <div class="searchFilling">
-                    <input type="text">
-                    <i class="fas fa-search"></i>
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div class="searchIcon">
+                        <i class="fas fa-search"></i>
+                    </div>
                 </div>
-                
+
                 <div class="underSearch">
                     <p>
                         Ex. : Excel, Word, Photoshop, Java, Agile...
                     </p>
                 </div>
+
+
+                <!--Trust div-->
+                <div class="verifiedTrust">
+                    <div class="scoreAndStars">
+                        <div class="trustScore">
+                            <p>
+                                4,6/5
+                            </p>
+                        </div>
+                        <!--Adding 4 stars and half of a star-->
+                        <a>
+                            <div class="stars">
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                                <a>
+                                    <i class="fas fa-star"></i>
+                                </a>
+                                <a>
+                                    <i class="fas fa-star-half"></i>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <!--Footer trusted class -->
+                    <div class="footerTrusts">
+                        <img src="https://www.m2iformation.fr/images/logo-avis-verifies.png" alt="logo avis vérifiés"
+                            Titre="Avis Vérifiés">
+
+                    </div>
+
+
+
+                </div>
     </header>
-    <!--Trust section-->
-    <section class="verifiedTrust">
-        <div class="trustScore">
-            <p>
-                4,6/5
-            </p>
-        </div>
-        <!--Adding 4 stars and half of a star-->
-        <a>
-            <div class="stars">
-                <a>
-                    <i class="fas fa-star"></i>
-                </a>
-                <a>
-                    <i class="fas fa-star"></i>
-                </a>
-                <a>
-                    <i class="fas fa-star"></i>
-                </a>
-                <a>
-                    <i class="fas fa-star"></i>
-                </a>
-                <a>
-                    <i class="fas fa-star-half"></i>
-                </a>
-            </div>
-        </a>
-        <!--Footer trusted class -->
-        <div class="foot trusts">
-            <p>
-                Avis vérifiés
-            </p>
-        </div>
 
+ <!--Backround header video-->
+ <div class="brackgroundVideo">
+    <video loop muted autoplay>
+        <source src="https://www.m2iformation.fr/video/home.mp4?v=2" type=video/mp4>
+    </video>
 
-
-    </section>
-
-
-    <!--Backround header video-->
-    <div class="brackground video">
-        <video loop muted autoplay>
-            <source src="https://www.m2iformation.fr/video/home.mp4?v=2" type=video/mp4>
-        </video>
-
-    </div>
+  
 
     <!--Second white block -->
 
-    <section class="white background">
-        <div>
+    <section class="whiteBackground">
+        <div class="centered">
             <h3>
                 Découvrez nos formations 2022 disponibles <br>
                 en présentiel ou à distance
@@ -175,54 +190,55 @@
         </div>
         <!--Four clickable blocks with a picture and a title each-->
         <div class="courses">
-            <div>
+            <article>
                 <h4>
                     Formations en<br>
                     informatique
                 </h4>
-                <div class="illustration">
+                <div class="illustrationArticle">
                     <image src="https://www.m2iformation.fr/images/metier/informatique-thumb.jpg">
 
                     </image>
 
-                </div>
+                </article>
             </div>
-            <div>
+            <article>
+
                 <h4>
                     Formations en<br>
                     bureautique
                 </h4>
-                <div class="illustration">
+                <div class="illustrationArticle">
                     <image src="https://www.m2iformation.fr/images/metier/bureautique-thumb.jpg">
 
                     </image>
 
                 </div>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h4>
                     Formations en<br>
                     management
                 </h4>
-                <div class="illustration">
+                <div class="illustrationArticle">
                     <image src="https://www.m2iformation.fr/images/metier/multimedia-thumb.jpg">
 
                     </image>
 
                 </div>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h4>
                     Formations en digital<br>
                     & multimédia
                 </h4>
-                <div class="illustration">
+                <div class="illustrationArticle">
                     <image src="https://www.m2iformation.fr/images/metier/management-thumb.jpg">
 
                     </image>
 
                 </div>
-            </div>
+            </article>
 
         </div>
     </section>
